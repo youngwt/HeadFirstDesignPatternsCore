@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StragegyPatternTests", "Str
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{8106479C-DC70-457B-AD82-11A40E98003D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{8829FC10-BE6C-428D-B1AE-951925FF6EC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPatternTests", "ObserverPatternTests\ObserverPatternTests.csproj", "{62D2A993-1ACD-45EB-959A-33E7ABCADA64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -19,5 +23,13 @@ Global
 		{8106479C-DC70-457B-AD82-11A40E98003D}.Debug|anycpu.Build.0 = Debug|Any CPU
 		{8106479C-DC70-457B-AD82-11A40E98003D}.Release|anycpu.ActiveCfg = Release|Any CPU
 		{8106479C-DC70-457B-AD82-11A40E98003D}.Release|anycpu.Build.0 = Release|Any CPU
+		{8829FC10-BE6C-428D-B1AE-951925FF6EC4}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{8829FC10-BE6C-428D-B1AE-951925FF6EC4}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{8829FC10-BE6C-428D-B1AE-951925FF6EC4}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{8829FC10-BE6C-428D-B1AE-951925FF6EC4}.Release|anycpu.Build.0 = Release|Any CPU
+		{62D2A993-1ACD-45EB-959A-33E7ABCADA64}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{62D2A993-1ACD-45EB-959A-33E7ABCADA64}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{62D2A993-1ACD-45EB-959A-33E7ABCADA64}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{62D2A993-1ACD-45EB-959A-33E7ABCADA64}.Release|anycpu.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
