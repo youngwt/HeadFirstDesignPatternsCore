@@ -4,8 +4,22 @@ namespace DecoratorPattern
 {
     abstract public class Beverage
     {
-        string Description => "Unknown Beverage";
+        public abstract string Description { get; }
 
-        public abstract double Cost();
+        public Beverage() {
+        }
+
+        public abstract double Cost { get; }
+
+        public virtual double CalculateCost()
+        {
+            return Cost;
+        }
+
+        public virtual string GetDescription()
+        {
+            return Description;
+        }
+
     }
 }
