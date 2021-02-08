@@ -6,7 +6,7 @@ namespace FactoryPattern
     /// <summary>
     /// A factory for creating different types of pizza
     /// </summary>
-    public class SimplePizzaFactory
+    public class SimplePizzaFactory : IPizzaFactory
     {
         /// <summary>
         /// Returns a pizza based on the provided type
